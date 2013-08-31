@@ -14,10 +14,12 @@ public class Main {
 		//llamo al metodo anio del objeto human definido en la clase Humano con el parametro 2013
 		System.out.println(human.pos);		
 		human.anio(2013);
+		System.out.println(" sadas dsad asd sa dsad as ");
 		String nombre = "Jorgito";
 		human.nomb(nombre);
 		String nuevoNombre = human.tunom();
 		System.out.println(human.pos);		
+		System.out.println(" sadas dsad asd sa dsad as ");
 		System.out.println(nuevoNombre);
 		System.out.println(human.pos);		
 		System.out.println(human.pos);		
@@ -27,11 +29,15 @@ public class Main {
 		System.out.println(human.pos);		
 //llamo al metodo anio del objeto human definido en la clase Humano con el parametro 2014
 		human.anio(2014);
+		System.out.println(" sadas dsad asd sa dsad as ");
 		String validar = human.tunom();
 		System.out.println (human.saludar());
 		validar = "pepe";
+		System.out.println(" sadas dsad asd sa dsad as ");
 		System.out.println(human.tunom());
+		System.out.println(" sadas dsad asd sa dsad as ");
 		System.out.println(validar);
+		System.out.println(" sadas dsad asd sa dsad as ");
 		
 		Perro newPerro = new Perro();
 		//effvevf
@@ -43,7 +49,9 @@ public class Main {
 
 		Caminante caminante = human;
 		System.out.println(human.pos);		
+		System.out.println(" sadas dsad asd sa dsad as ");
 		caminante.caminar(-10, -5);
+		System.out.println(" sadas dsad asd sa dsad as ");
 		System.out.println(human.pos);		
 		System.out.println(human.pos);		
 	}
