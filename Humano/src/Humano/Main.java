@@ -28,7 +28,7 @@ public class Main {
 		System.out.println(validar);
 		
 		Perro newPerro = new Perro();
-		
+		//effvevf
 		System.out.println(newPerro.saludar());
 		System.out.println(Humano.raza);
 		System.out.println(human.caminar(20, 10));
